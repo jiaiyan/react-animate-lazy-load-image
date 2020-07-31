@@ -1,0 +1,75 @@
+.react-lazy-load-image {
+  position: relative;
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+}
+
+.react-lazy-load-image img {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+.react-lazy-load-image img:first-child {
+  position: absolute;
+  z-index: 0;
+}
+
+.react-lazy-load-image img:last-child {
+  position: relative;
+  z-index: 1;
+}
+
+.react-lazy-load-image img.show {
+  animation: show 1s ease-in;
+  -webkit-animation: show 1s ease-in;
+}
+
+.react-lazy-load-image img.hide {
+  animation: hide 1s ease-out;
+  -webkit-animation: hide 1s ease-out;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

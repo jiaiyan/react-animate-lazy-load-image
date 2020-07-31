@@ -1,0 +1,9 @@
+# .npmignore 
+src
+examples
+.babelrc
+.gitignore
+webpack.config.js
+yarn.lock
+pics
+README-zh_CN.md
