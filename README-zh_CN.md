@@ -1,9 +1,9 @@
-# React hook 图片懒加载组件
+# React hook 图片懒加载组件 [![GitHub stars](https://img.shields.io/github/stars/jiaiyan/react-animate-lazy-load-image)](https://github.com/jiaiyan/react-animate-lazy-load-image/stargazers)
 [English](./README.md) | 简体中文
 
 基于React hook实现可配置动画图片懒加载组件，突破图片懒加载一闪而过的效果，自定义你想要的加载效果，也可使用第三方库，让你的图片动起来。
 
-> 效果图
+> 效果图 [在线预览](https://jiaiyan.github.io/react-animate-lazy-load-image/)
 
 <div align="center">
   <img src="./pics/react-lazy-load-image.gif"/>

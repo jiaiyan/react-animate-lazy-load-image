@@ -1,9 +1,9 @@
-# hook react lazy load image component
+# hook react lazy load image component [![GitHub stars](https://img.shields.io/github/stars/jiaiyan/react-animate-lazy-load-image)](https://github.com/jiaiyan/react-animate-lazy-load-image/stargazers)
 English | [简体中文](./README-zh_CN.md)
 
 implemented based on hook react lazy load image component, support for animation configuration, get your load image moving.
 
-> preview
+> preview [online preview](https://jiaiyan.github.io/react-animate-lazy-load-image/)
 
 <div align="center">
   <img src="./pics/react-lazy-load-image.gif"/>
