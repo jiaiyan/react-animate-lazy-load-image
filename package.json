@@ -1,8 +1,12 @@
 {
   "name": "react-animate-lazy-load-image",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "implemented based on hook react lazy load image component, support for animation configuration, get your load image moving.",
-  "keywords": ["react","lazyload"],
+  "keywords": [
+    "react",
+    "image lazy load",
+    "图片懒加载"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -30,5 +34,6 @@
     "webpack": "^4.9.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.4"
-  }
+  },
+  "dependencies": {}
 }

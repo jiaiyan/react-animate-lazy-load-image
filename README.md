@@ -21,8 +21,9 @@ yarn add react-animate-lazy-load-image
 import Image from "react-animate-lazy-load-image";
 // ...
 <Image
-    enter="show" // Enter the animation, built-in fade in effect (show), also can be empty
-    exit="hide"  // Factory animation, built-in fade out effect (hide), can also be empty
+    enter="show"     // Enter the animation, built-in fade in effect (show), also can be empty
+    exit="hide"      // Factory animation, built-in fade out effect (hide), can also be empty
+    mode="fill"      // Image clipping and zooming mode
     style={{
         height: "400px",
         width: "600px",
@@ -49,12 +50,30 @@ Just use the class name，You can also customize your own, a high degree of free
 ```
 ## Configuration
 
-| attribute          | description            | data type    |
+| Prop          | description            | Type    |
 | :----------: | :------------:   | :---: |
 | enter        |  Entry animation (built-in fading effect show)        | string  |
 | exit         |  Factory animation (built-in fade out effect Hide)        | string  |
+| mode         |  Image clipping and zooming mode(default:fill)    | string  |
 | src          |  Picture address        | string  |
 | placeholde   |  Placeholder map address      | string  |
 | style        |  Component style        | object  |
 | title        |  Additional information about the element   | string |
 | alt          |  Alternate text for images   | string |
+
+> mode值
+
+|  value  | description  |
+|:---: | :-- |
+| fill |The replaced content is sized to fill the element’s content box. The entire object will completely fill the box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be stretched to fit. |
+|  contain | The replaced content is scaled to maintain its aspect ratio while fitting within the element’s content box. The entire object is made to fill the box, while preserving its aspect ratio, so the object will be "letterboxed" if its aspect ratio does not match the aspect ratio of the box. |
+| cover  | The replaced content is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit. |
+| none | The replaced content is not resized. |
+| scale-down | The content is sized as if none or contain were specified, whichever would result in a smaller concrete object size. |
+
+---
+
+Welcome to my [blog](https://www.jiaiyan.com/) and follow me on my personal WeChat `管子先生`
+<div align="left">
+  <img src="./pics/wechat.jpg"/>
+</div>

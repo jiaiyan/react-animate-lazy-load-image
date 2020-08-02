@@ -58,6 +58,7 @@ function ReatLazyLoadImage(props) {
           className={enter}
           onLoad={() => setExit(props.exit)}
           src={src}
+          style={{ objectFit: props.mode || 'fill' }}
           alt={props.alt}
         />
       )}
